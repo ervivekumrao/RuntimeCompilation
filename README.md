@@ -7,7 +7,11 @@ If you downloaded it zip make sure to rename Project Root to RuntimeCompile if i
 
 Use dibugger on OnTheFlyCompiler class and evaluate below expression in debugmode to see loaded classes.
 classLoader.findLoadedClass("umrao.compile.OnTheFlyCompiler");
+
 classLoader.findLoadedClass("umrao.generated.MessageImpl");
+
 classLoader.findLoadedClass("umrao.std.Message");
+
 classLoader.findLoadedClass("umrao.std.Print");
+
 classLoader.findLoadedClass("umrao.std.Log");
